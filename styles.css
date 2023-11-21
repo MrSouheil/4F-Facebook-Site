@@ -122,3 +122,29 @@ input {
         min-width: unset; //Unsets the width for phone screens, body as example
     }
 } */
+
+@media only screen and (max-width: 430px) {
+    .main {
+        min-width: unset;
+        width: 100%;
+    }
+
+    .page-title img {
+        width: 100vw;
+    }
+
+    .page-title p {
+        font-size: 18px;
+        padding: 0 0 0 15px;
+        margin-right: 30px;
+    }
+
+    input {
+        font-size: 12px;
+    }
+
+    .signup-btn {
+        width: 80%;
+        font-size: 16px;
+    }
+}
